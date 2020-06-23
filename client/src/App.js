@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <Route exact path = "/">
-        <Link to ="/ClientLandingPage">Client</Link>
+        <Link to ="/ClientLandingPage"><button>Client</button></Link>
       </Route>
       <Route exact path = "/ClientLandingPage">
         <ClientLandingPage/>
